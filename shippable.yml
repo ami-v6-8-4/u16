@@ -9,6 +9,35 @@ build:
     
   ci:   
     - python --version 
+    - java -version
+    - nodejs --version
+    - yarn -version
+    - source /usr/local/rvm/scripts/rvm
+    - ruby -v
+    - python -V
+    - pip --version
+    - virtualenv --version
+    - git --version
+    - aws --version #1.15.73
+    - eb --version #3.14.3
+    - az --version #2.0.43
+    - jfrog --version #1.18.0
+    - gcloud version #211.0.0
+    - git lfs version
+    - kubectl version --client #1.11.0
+    - kops version
+    - helm version --client
+    - doctl version
+    - ansible --version #2.6.2
+   # - pip show boto
+   # - pip show boto3
+   # - pip show apache-libcloud
+   # - pip show azure
+   # - pip show dopy 
+    - packer --version #1.2.5
+    - jq --version
+    - terraform --version #0.11.7
+    - openstack --version
     - docker pull shippabledocker/sample_node_pvt:ecr
     - EXPECTED_DOCKER_VERSION="17.06.0-ce"
     - |
